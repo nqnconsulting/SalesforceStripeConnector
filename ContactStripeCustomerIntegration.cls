@@ -1,4 +1,4 @@
-public class StripeCustomerIntegration {
+public class ContactStripeCustomerIntegration {
 
 public static final String STRIPE_API_URL = 'https://api.stripe.com/v1/customers';
 public static final String STRIPE_API_KEY = 'sk_test_your_api_key_here'; // Replace with your actual Stripe API key

@@ -34,7 +34,6 @@ public void processContactStripeCustomer(List<Contact> contacts) {
         }
     }
     existingCustomers = searchCustomersByEmails(contacts);
-    System.debug('Existing Customers: ' + existingCustomers);
 
     List<String> existingEmails = new List<String>();
     List<String> stripeCustomerIDs = new List<String>();
